@@ -1,0 +1,58 @@
+#todo-page {
+
+    .todo {
+        width: 60%;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #dedede;
+
+        .todo-input {
+            display: flex;
+
+            input {
+                width: 100%;
+            }
+        }
+
+        .todo-list {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                border: 1px solid #dedede;
+                padding: 20px;
+
+                li {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+
+                    span {
+                        width: 100%;
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .edit-button {
+                width: 100px;
+                margin-right: 10px;
+            }
+
+            .delete-button {
+                width: 60px;
+            }
+
+            .clear-list {
+                width: 30%;
+                align-self: flex-end;
+            }
+        }
+
+
+    }
+
+
+}

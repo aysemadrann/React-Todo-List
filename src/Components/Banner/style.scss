@@ -1,0 +1,20 @@
+.banner {
+    text-align: center;
+
+    .banner-search {
+        font-size: 16px;
+
+        .search-input {
+            width: 300px;
+            border-right: none;
+        }
+
+        .search-button {
+            width: 80px;
+            border-left: none;
+            margin-top: 20px;
+        }
+    }
+
+
+}

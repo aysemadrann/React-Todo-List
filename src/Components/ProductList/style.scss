@@ -1,0 +1,18 @@
+.product-list {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 300px)); 
+    justify-content: center;
+
+    .product {
+        margin: 10px auto;
+        padding: 20px 10px;
+        width: calc(100% - 30px);
+        border: 1px solid #dedede;
+        text-align: center;
+    
+        img {
+            width: 200px;
+        }
+    }
+}

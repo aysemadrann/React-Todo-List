@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+
+    .logo {
+        flex: 1;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 1;
+
+        li {
+            list-style: none;
+
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+    }
+}
