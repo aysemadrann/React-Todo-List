@@ -1,6 +1,5 @@
 import './style.scss';
 import React, { Component } from 'react';
-import Navbar from '../../Components/Navbar';
 
 export default class Todo extends Component {
     state = {
@@ -113,8 +112,8 @@ export default class Todo extends Component {
         const { todoInput, todoList, todoEditedItemIndex } = this.state;
 
         return (<div id='todo-page' className='page'>
-            <Navbar />
             <div className='content'>
+                <h2 className='todo-header'>Todo List</h2>
                 <div className='todo'>
                     <div className='todo-input'>
                         <input
